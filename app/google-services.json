@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "714393701630",
+    "firebase_url": "https://prj-manha.firebaseio.com",
+    "project_id": "prj-manha",
+    "storage_bucket": "prj-manha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714393701630:android:550366c9fef82545",
+        "android_client_info": {
+          "package_name": "br.edu.unileao.firebasemanha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714393701630-aav6b4brhdn6hgknrqp0nvlucsbtr4ee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.unileao.firebasemanha",
+            "certificate_hash": "6ef66f901645b6c9d07b0b2d9bea96af538a3936"
+          }
+        },
+        {
+          "client_id": "714393701630-n6ctb2taa5g8aamc431ksk851l4pkfhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgM8ItypBIwxEeUG8nmDg5Ph72_nY_yjM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714393701630-n6ctb2taa5g8aamc431ksk851l4pkfhf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
