@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final EditText edtNome = (EditText) findViewById(R.id.edtNome);
+        final EditText edtEndereco = (EditText) findViewById(R.id.edtEndereco);
+        final EditText edtCPF = (EditText) findViewById(R.id.edtCpf);
         Button btSalvar = (Button) findViewById(R.id.btSalvar);
 
         btSalvar.setOnClickListener(new View.OnClickListener() {
@@ -29,12 +31,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Cliente cliente = new Cliente();
                 cliente.setNome(edtNome.getText().toString());
-                cliente.setCpf("523543");
-                cliente.setEndereco("Rua C");
+                cliente.setCpf(edtCPF.getText().toString());
+                cliente.setEndereco(edtEndereco.getText().toString());
 
-                clienteReference.child("03").setValue(cliente);
+                clienteReference.child(edtCPF.getText().toString()).setValue(cliente);
 
                 edtNome.setText("");
+                edtCPF.setText("");
+                edtEndereco.setText("");
             }
         });
 
